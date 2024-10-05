@@ -17,5 +17,6 @@ public class AreaOfTriangle
 		area = b*h/2;
 		System.out.println("Area of the Triangle is " + area);
 	}
+	
 }
 		
