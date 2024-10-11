@@ -1,25 +1,23 @@
 import java.lang.*;
 import java.util.Scanner;
 
-public class DisplayDigitsOfNumbers
-
+public class CountDigitsOfANumber
 {
 	public static void main(String[] args)
 	{
-		int n, r;
+		int n;
+		int count = 0;
 		
 		Scanner scn = new Scanner(System.in);
 		
-		System.out.println("Enter a Number");
+		System.out.println("Enter the number");
 		n = scn.nextInt();
 		
 		while(n>0)
 		{
-			r = n%10;
-			n = n/10;
-			
-			System.out.println(r);
+			n=n/10;
+			count++;
 		}
-		System.out.println(n);
+		System.out.println(count);
 	}
 }
