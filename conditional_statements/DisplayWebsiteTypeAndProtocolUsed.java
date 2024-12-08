@@ -40,7 +40,7 @@ public class DisplayWebsiteTypeAndProtocolUsed
 					break;
 			case "gov":System.out.println("Government");
 					break;
-			default: System.out.println("Invalid Protocol");
+			default: System.out.println("Invalid Extension");
 					break;
 		}
 	}
