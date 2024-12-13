@@ -1,6 +1,7 @@
 import java.lang.*;
 import java.util.*;
 
+//using parametrised constructor
 class Parent
 {
 	public Parent()

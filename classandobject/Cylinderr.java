@@ -39,18 +39,31 @@ public class Cylinderr
 {
 	public static void main(String[] args)
 	{
-	 Cylinder c1 = new Cylinder();
-	 Cylinder c2 = new Cylinder();
-	 
-	 c1.radius=7;
-	 c1.height=10;
-	 
-	 c2.radius=7;
-	 c2.height=21;
-	 
-	 System.out.println("LidArea: "+c1.lidArea());
-	 System.out.println("circumference: "+c1.circumference());
-	 System.out.println("totalSurfaceArea: "+c1.totalSurfaceArea());
-	 System.out.println("voulume: "+c1.volume());
+		Scanner scn=new Scanner(System.in);
+
+		Cylinder c1 = new Cylinder();
+	 	Cylinder c2 = new Cylinder();
+
+		System.out.println("Enter the radius of the first Cylinder: ");
+		c1.radius=scn.nextDouble();
+		System.out.println("Enter the height of the first Cylinder: ");
+		c1.height=scn.nextDouble();
+
+		System.out.println("LidArea: "+c1.lidArea());
+		System.out.println("circumference: "+c1.circumference());
+		System.out.println("totalSurfaceArea: "+c1.totalSurfaceArea());
+		System.out.println("voulume: "+c1.volume());
+
+		System.out.println("Enter the radius of the second Cylinder: ");
+		c2.radius=scn.nextDouble();
+		System.out.println("Enter the height of the second Cylinder: ");
+		c2.height=scn.nextDouble();
+
+		System.out.println("LidArea: "+c2.lidArea());
+		System.out.println("circumference: "+c2.circumference());
+		System.out.println("totalSurfaceArea: "+c2.totalSurfaceArea());
+		System.out.println("voulume: "+c2.volume());
+
+		scn.close();
 	}
 }

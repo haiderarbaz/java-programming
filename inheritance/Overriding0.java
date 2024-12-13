@@ -14,10 +14,12 @@ class TV
 }
 class SmartTV extends TV
 {
+	@Override
 	public void switchON()
 	{
 		System.out.println("Smart TV is Switched ON");
 	}
+	@Override
 	public void changeChannel()
 	{
 		System.out.println("Smart TV Channel is changed");

@@ -11,7 +11,10 @@ public class StringPool
 		String str4=new String ("Java");
 		
 		System.out.println(str1==str2);
+		//true
 		System.out.println(str1==str3);
+		//false
 		System.out.println(str1==str4);
+		//false
 	}
 }

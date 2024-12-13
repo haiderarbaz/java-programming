@@ -11,6 +11,7 @@ public class MethVariableArg1
 		start++;
 	 }
 	}
+	//public static void main(String ...args) //we can also use variable arguments
 	public static void main(String[] args)
 	{
 		showList(5,"faizan","akram","tipu","azhan","abhijeet","harsh"); //ordering will start from 5 onwards

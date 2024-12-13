@@ -13,5 +13,6 @@ public class Printf
 		//\n will take a new line
 		
 		System.out.printf("Hello %d %f %c World\n",x,y,z);
+		//%d %f %c(format specifier or control characters)
 	}
 }

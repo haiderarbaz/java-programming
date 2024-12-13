@@ -14,6 +14,6 @@ public class Methods01
 		int a=10, b=15;
 		inc(a);
 		
-		System.out.println(a);
+		System.out.println(a); 
 	}
 }

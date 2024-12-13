@@ -45,4 +45,4 @@ public class DynamicDispatch0
 		sup.meth2();
 		//sup.meth3(); //error: cannot find symbol
 	}
-}
+} 
